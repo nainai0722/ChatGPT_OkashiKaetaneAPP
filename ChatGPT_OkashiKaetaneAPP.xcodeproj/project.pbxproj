@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80C936E29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C936D29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPPApp.swift */; };
+		F80C937029CCA10C00A86C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C936F29CCA10C00A86C85 /* ContentView.swift */; };
+		F80C937229CCA10E00A86C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80C937129CCA10E00A86C85 /* Assets.xcassets */; };
+		F80C937529CCA10E00A86C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80C937429CCA10E00A86C85 /* Preview Assets.xcassets */; };
+		F80C937C29CCA37F00A86C85 /* PriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C937B29CCA37F00A86C85 /* PriceData.swift */; };
+		F80C939829D33B0F00A86C85 /* BudgetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C939729D33B0F00A86C85 /* BudgetData.swift */; };
+		F83A1EED2A0918BB00383692 /* PopUpDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EEC2A0918BB00383692 /* PopUpDialogView.swift */; };
+		F83A1EF22A0919C200383692 /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EEF2A0919C200383692 /* Face.swift */; };
+		F83A1EF32A0919C200383692 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EF02A0919C200383692 /* CloseButton.swift */; };
+		F83A1EF42A0919C200383692 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EF12A0919C200383692 /* BackgroundView.swift */; };
+		F83A1EF62A0935E900383692 /* CoinsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EF52A0935E900383692 /* CoinsListView.swift */; };
+		F83A1EF82A0BDB0100383692 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EF72A0BDB0100383692 /* CustomTextField.swift */; };
+		F83A1EFA2A0BDCCB00383692 /* CustomTextFieldWithPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1EF92A0BDCCB00383692 /* CustomTextFieldWithPrice.swift */; };
+		F83A1F0E2A0D208000383692 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83A1F0D2A0D208000383692 /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80C936A29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPT_OkashiKaetaneAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80C936D29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPT_OkashiKaetaneAPPApp.swift; sourceTree = "<group>"; };
+		F80C936F29CCA10C00A86C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F80C937129CCA10E00A86C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80C937429CCA10E00A86C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F80C937B29CCA37F00A86C85 /* PriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceData.swift; sourceTree = "<group>"; };
+		F80C939729D33B0F00A86C85 /* BudgetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetData.swift; sourceTree = "<group>"; };
+		F83A1EEC2A0918BB00383692 /* PopUpDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpDialogView.swift; sourceTree = "<group>"; };
+		F83A1EEF2A0919C200383692 /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		F83A1EF02A0919C200383692 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		F83A1EF12A0919C200383692 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F83A1EF52A0935E900383692 /* CoinsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsListView.swift; sourceTree = "<group>"; };
+		F83A1EF72A0BDB0100383692 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F83A1EF92A0BDCCB00383692 /* CustomTextFieldWithPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldWithPrice.swift; sourceTree = "<group>"; };
+		F83A1F0D2A0D208000383692 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80C936729CCA10C00A86C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80C936129CCA10C00A86C85 = {
+			isa = PBXGroup;
+			children = (
+				F80C936C29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP */,
+				F80C936B29CCA10C00A86C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80C936B29CCA10C00A86C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80C936A29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80C936C29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP */ = {
+			isa = PBXGroup;
+			children = (
+				F83A1EEE2A0919C200383692 /* ComponentViews */,
+				F80C936D29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPPApp.swift */,
+				F80C936F29CCA10C00A86C85 /* ContentView.swift */,
+				F83A1F0D2A0D208000383692 /* SplashView.swift */,
+				F83A1EF92A0BDCCB00383692 /* CustomTextFieldWithPrice.swift */,
+				F83A1EEC2A0918BB00383692 /* PopUpDialogView.swift */,
+				F83A1EF72A0BDB0100383692 /* CustomTextField.swift */,
+				F83A1EF52A0935E900383692 /* CoinsListView.swift */,
+				F80C937B29CCA37F00A86C85 /* PriceData.swift */,
+				F80C939729D33B0F00A86C85 /* BudgetData.swift */,
+				F80C937129CCA10E00A86C85 /* Assets.xcassets */,
+				F80C937329CCA10E00A86C85 /* Preview Content */,
+			);
+			path = ChatGPT_OkashiKaetaneAPP;
+			sourceTree = "<group>";
+		};
+		F80C937329CCA10E00A86C85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F80C937429CCA10E00A86C85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F83A1EEE2A0919C200383692 /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				F83A1EEF2A0919C200383692 /* Face.swift */,
+				F83A1EF02A0919C200383692 /* CloseButton.swift */,
+				F83A1EF12A0919C200383692 /* BackgroundView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80C936929CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80C937829CCA10E00A86C85 /* Build configuration list for PBXNativeTarget "ChatGPT_OkashiKaetaneAPP" */;
+			buildPhases = (
+				F80C936629CCA10C00A86C85 /* Sources */,
+				F80C936729CCA10C00A86C85 /* Frameworks */,
+				F80C936829CCA10C00A86C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatGPT_OkashiKaetaneAPP;
+			productName = ChatGPT_OkashiKaetaneAPP;
+			productReference = F80C936A29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80C936229CCA10C00A86C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F80C936929CCA10C00A86C85 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F80C936529CCA10C00A86C85 /* Build configuration list for PBXProject "ChatGPT_OkashiKaetaneAPP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80C936129CCA10C00A86C85;
+			productRefGroup = F80C936B29CCA10C00A86C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80C936929CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80C936829CCA10C00A86C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C937529CCA10E00A86C85 /* Preview Assets.xcassets in Resources */,
+				F80C937229CCA10E00A86C85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80C936629CCA10C00A86C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80C939829D33B0F00A86C85 /* BudgetData.swift in Sources */,
+				F83A1EED2A0918BB00383692 /* PopUpDialogView.swift in Sources */,
+				F83A1EFA2A0BDCCB00383692 /* CustomTextFieldWithPrice.swift in Sources */,
+				F83A1EF42A0919C200383692 /* BackgroundView.swift in Sources */,
+				F80C937029CCA10C00A86C85 /* ContentView.swift in Sources */,
+				F83A1F0E2A0D208000383692 /* SplashView.swift in Sources */,
+				F83A1EF82A0BDB0100383692 /* CustomTextField.swift in Sources */,
+				F80C937C29CCA37F00A86C85 /* PriceData.swift in Sources */,
+				F83A1EF32A0919C200383692 /* CloseButton.swift in Sources */,
+				F83A1EF62A0935E900383692 /* CoinsListView.swift in Sources */,
+				F83A1EF22A0919C200383692 /* Face.swift in Sources */,
+				F80C936E29CCA10C00A86C85 /* ChatGPT_OkashiKaetaneAPPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F80C937629CCA10E00A86C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80C937729CCA10E00A86C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80C937929CCA10E00A86C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT_OkashiKaetaneAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 58J628MLWX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用して写真を撮影します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリにアクセスして写真を選択します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanaSashihara.ChatGPT-OkashiKaetaneAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80C937A29CCA10E00A86C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatGPT_OkashiKaetaneAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = 58J628MLWX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "カメラを使用して写真を撮影します。";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "フォトライブラリにアクセスして写真を選択します";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanaSashihara.ChatGPT-OkashiKaetaneAPP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80C936529CCA10C00A86C85 /* Build configuration list for PBXProject "ChatGPT_OkashiKaetaneAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C937629CCA10E00A86C85 /* Debug */,
+				F80C937729CCA10E00A86C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80C937829CCA10E00A86C85 /* Build configuration list for PBXNativeTarget "ChatGPT_OkashiKaetaneAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80C937929CCA10E00A86C85 /* Debug */,
+				F80C937A29CCA10E00A86C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80C936229CCA10C00A86C85 /* Project object */;
+}
